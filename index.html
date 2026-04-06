@@ -5,6 +5,107 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
   </head>
+  <header>
+    <h1>Team Segmentation Exalt Meeting Minutes</h1>
+    <h2>Pomodoro Brainstorm meeting</h2>
+    <h3>4/5/2026</h3>
+  </header>
+  <nav>
+    <a href="#media">Jump To Media</a>
+  </nav>
   <body>
+    <main>
+        <span>
+            <section>
+                <h2>Attendance</h2>
+                <ul>
+                <li>Alice</li>
+                <li>Bob</li>
+                </ul>
+            </section>
+        </span>
+    </main>
+    <hr>
+    <main>
+        <section>
+            <h2>Agenda</h2>
+            <ul>
+                <li>set the programming language (continued from last meeting)</li>
+                <li>establish group rules (new)</li>
+                <li>brainstorm ideas (new)</li>
+            </ul>
+            <h2>Preferred programming languages of group members </h2>
+            <ol>
+                <li>JS</li>
+                <li>Python</li>
+                <li>C++</li>
+            </ol>
+        </section>
+        <section>
+            <details>
+                <summary>Questions raised during the meeting</summary>
+                <p>Should we support <b>notifications</b> in version 1?</p>
+                <p>What is the <i>responsibility</i> of each member?</p>
+            </details>
+        </section>
+        <div>
+            <p><strong>NOTE: </strong> turn in every thing by <em>next Fri</em></p>
+            <p>CSE 110 LAB 2</p>
+            <a href="https://canvas.ucsd.edu">Visit UCSD Canvas Page</a>
+        </div>
+        <div>
+           <section id="media"> 
+            <p>Media</p>
+            <p>Blueprint of the timer</p>
+            <img src="/Il_pomodoro.jpg" alt="timer">
+            <p>Meeting Audio</p>
+            <audio controls>
+            <source src="WIN_20260405_22_37_04_Pro.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            <p>Meeting Video</p>
+            <video controls width="320">
+            <source src="WIN_20260405_22_37_04_Pro.mp4" type="video/mp4">
+            Your browser does not support the video element.
+            </video>
+            </section>
+        </div>
+    </main>
   </body>
+  <footer> 
+    <form>
+        <fieldset>
+            <p>Meeting Feedback</p>
+
+        <p>enter name</p> 
+        <input type="text" name="name">
+        <p>Pick date for next meeting</p>
+        <input type="date" name="meeting-date">
+        <p>preferred medium (can pick one or more)</p>
+        <input type="checkbox" name="topics" value="in person"> In Person
+        <input type="checkbox" name="topics" value="online"> Online
+        <p>How was your experience?</p>
+        <input type="radio" name="rating" value="good"> Good
+        <input type="radio" name="rating" value="okay"> Okay
+        <input type="radio" name="rating" value="bad"> Bad
+        <p>Do you want to use a JS framework? If so, which?</p>
+        <input list="tools" name="framework">
+        <datalist id="tools">
+        <option value="React">
+        <option value="Vue">
+        <option value="None">
+        </datalist>
+
+        <p>What is your role?</p>
+        <select name="role">
+        <option value="leader">Leader</option>
+        <option value="member">Member</option>
+        </select>
+        <p>Any Comments?</p>
+        <textarea name="comments"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+  </footer >
 </html>
